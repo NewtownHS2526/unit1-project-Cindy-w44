@@ -1,14 +1,41 @@
-div {
-    background-color: #e9edc9;
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-  }
+body {
+  background-color: black;
+  color: white;
+  font-family: "Tiimes New Roman", Times, serif;";
+  float: left;
+}
+
+img {
+  float: left;
+  margin: 20px; 
+  border: double;
+  width: 200px;
   
-  img {
-    max-width: 80%;
-  }
+}
+
+ul {
+  float: left;
+
+}
+
+.achievement1 {
   
-  #header {
-    background-color: #d4a373;
-  }
+
+}
+
+.achievement2 {
+
+
+}
+
+.achievement3 {
+
+
+}
+
+.achievement4 {
+
+
+}
+
+
