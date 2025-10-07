@@ -1,7 +1,7 @@
 body {
   background-color: black;
   color: white;
-  font-family: "Tiimes New Roman", Times, serif;";
+  font-family: "Times New Roman", Times, serif";
   float: left;
 }
 
@@ -15,26 +15,36 @@ img {
 
 ul {
   float: left;
+  height: 250px;
+  width: 200px;
 
 }
 
 .achievement1 {
-  
+  float: right;
+  height: 250px;
+  width: 200px
 
 }
 
 .achievement2 {
-
+  float: left;
+  height: 250px;
+  width: 200px
 
 }
 
 .achievement3 {
-
+  float: left;
+  height: 250px;
+  width: 200px;
 
 }
 
 .achievement4 {
-
+  float: left;
+  height: 250px;
+  width: 200px;
 
 }
 
