@@ -1,91 +1,91 @@
-body {
-  text-align: center;
-  background-color: black;
-  color: white;
-  font-family: "Times New Roman", Times, serif";
+/* Reset & base */
+* { box-sizing: border-box; }
+html, body { 
+  margin: 0;
+  padding: 0;
 }
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.6;
+  text-align: center;
+}
+
 
 h1 {
-  font-size: 50px;
-  text-align: center;
-  color: white;
-  
+  margin: 24px auto 8px;
+  font-size: 40px;
+  font-weight: 700;
 }
 
-#h2 {
- 
-  text-align: center;
-  font-size: 25px;
-  
+h2 {
+  margin: 24px auto 12px;
+  font-size: 28px;
 }
 
+/* Quote + Section title clones */
+#h2,
 .h2 {
-  font-size: 30px;
+  font-size: 24px;
+  margin: 8px auto 20px;
+  max-width: 900px;
+  padding: 0 16px;
   text-align: center;
-  color: white;
-
 }
 
+/* Images */
 img {
-  float: left;
-  margin: 10px; 
-  border: double;
-  width: 250px;
-  
+  display: block;         /* new property helps you display them better we will work on */
+  margin: 16px auto;
+  border: 4px double #fff;
+  width: min(100%, 350px);
+  height: auto;
 }
 
 .lol {
-  float: left;
-  margin: 20px; 
-  border: double;
-  width: 350px;
-
+  width: min(100%, 420px);
 }
 
+/* About list */
 ul {
-  float: left;
-  font-size: 22px;
-
-}
-
-.achievement1 {
-  float: left;
-  height: 250px;
-  width: 200px;
+  list-style: disc inside;
+  margin: 12px auto 24px;
+  padding: 0 20px;
+  max-width: 800px;
+  text-align: left;
   font-size: 20px;
-
 }
 
-.achievement2 {
-  float: left;
-  height: 250px;
-  width: 200px;
-  font-size: 20px;
-
-}
-
-.achievement3 {
-  float: left;
-  height: 250px;
-  width: 200px;
-  font-size: 20px;
-
-}
-
+/* Achievement blocks */
+.achievement1,
+.achievement2,
+.achievement3,
 .achievement4 {
-  float: left;
-  height: 250px;
-  width: 200px;
-  font-size: 20px;
-
+  max-width: 900px;
+  margin: 12px auto;
+  padding: 0 16px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.7;
 }
 
+/* Generic paragraph at bottom */
 p {
-  float: right;
-  height: 250px;
-  width: 200px;
+  max-width: 900px;
+  margin: 12px auto 28px;
+  padding: 0 16px;
+  text-align: left;
   font-size: 18px;
+}
 
+/* HR styling */
+hr {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 24px auto;
+  width: min(90%, 900px);
 }
 
 
