@@ -21,7 +21,7 @@ h1 {
 
 .h2 {
   font-size: 30px;
-  text-align: middle;
+  text-align: center;
   color: white;
 
 }
@@ -51,7 +51,7 @@ ul {
 .achievement1 {
   float: left;
   height: 250px;
-  width: 200px
+  width: 200px;
   font-size: 20px;
 
 }
@@ -59,7 +59,7 @@ ul {
 .achievement2 {
   float: left;
   height: 250px;
-  width: 200px
+  width: 200px;
   font-size: 20px;
 
 }
