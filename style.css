@@ -1,8 +1,8 @@
 body {
+  text-align: center;
   background-color: black;
   color: white;
   font-family: "Times New Roman", Times, serif";
-  float: left;
 }
 
 h1 {
@@ -13,36 +13,43 @@ h1 {
 }
 
 #h2 {
+ 
   text-align: center;
   font-size: 25px;
   
 }
 
 .h2 {
-  font-size: 25px;
-  text-align: center;
+  font-size: 30px;
+  text-align: middle;
   color: white;
 
 }
 
 img {
   float: left;
-  margin: 20px; 
+  margin: 10px; 
   border: double;
   width: 250px;
   
 }
 
+.lol {
+  float: left;
+  margin: 20px; 
+  border: double;
+  width: 350px;
+
+}
+
 ul {
   float: left;
-  height: 250px;
-  width: 200px;
-  font-size: 20px;
+  font-size: 22px;
 
 }
 
 .achievement1 {
-  float: right;
+  float: left;
   height: 250px;
   width: 200px
   font-size: 20px;
@@ -50,7 +57,7 @@ ul {
 }
 
 .achievement2 {
-  float: right;
+  float: left;
   height: 250px;
   width: 200px
   font-size: 20px;
@@ -66,10 +73,18 @@ ul {
 }
 
 .achievement4 {
-  float: right;
+  float: left;
   height: 250px;
   width: 200px;
   font-size: 20px;
+
+}
+
+p {
+  float: right;
+  height: 250px;
+  width: 200px;
+  font-size: 18px;
 
 }
 
